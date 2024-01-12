@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Para que no se haga scroll es decir la barra*/
+::-webkit-scrollbar{
+      width: 0; 
+}
 
 
